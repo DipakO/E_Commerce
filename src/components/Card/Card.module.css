@@ -1,0 +1,76 @@
+#Card{
+    background-color: whitesmoke;
+    width: 20rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin-top: 3rem;
+    /* height: 35rem; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.addbtn{
+    background-color: rgb(65, 91, 239);
+    border: none;
+    border-radius: 10px;
+}
+
+.productDetails{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aqua; */
+    border: 1px solid black;
+}
+
+.totalPrice{
+    float: right;
+}
+
+.cards{
+    display: inline-block;
+    transition: transform .2s;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    /* margin: 0.19rem; */
+    cursor: pointer;
+    min-width: 20.1rem;
+    height: 30rem;
+    z-index: 0;
+    border: 1px solid black;
+    background-color: rgba(185, 183, 183, 0.916);
+}
+.cards2{
+    display: inline-block;
+    transition: transform .2s;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    /* margin: 0.19rem; */
+    cursor: pointer;
+    min-width: 100rem;
+    height: 10rem;
+    z-index: 0;
+    border: 1px solid black;
+    background-color: rgba(185, 183, 183, 0.916);
+}
+
+.cards:hover{
+    transform: scale(1.2);
+    z-index: 1000;
+    box-shadow: rgba(0,0,0,0.25) 0px 54px 55px, rgba(0,0,0,0.12) 0px -12px 30px, rgba(0,0,0,0.12) 0px 4px 6px, rgba(0,0,0,0.17) 0px 12px 13px, rgba(0,0,0,0.09) 0px -3px 5px;
+}
+
+.cards2:hover{
+    transform: scale(1.2);
+    z-index: 1000;
+    box-shadow: rgba(0,0,0,0.25) 0px 54px 55px, rgba(0,0,0,0.12) 0px -12px 30px, rgba(0,0,0,0.12) 0px 4px 6px, rgba(0,0,0,0.17) 0px 12px 13px, rgba(0,0,0,0.09) 0px -3px 5px;
+}
+
